@@ -1,56 +1,6 @@
-/* body, html {
-  line-height: 3em;
-}
-
- li {
-   list-style-type: none;
-   line-height: 3em;
- }
-
- .container {
-   text-align: center;
- }
-
-
- h1, h4 {
-   font-family: 'Dancing Script', cursive;
-   color: blue;
-   font-size: 2em;
- }
-
- p, li {
-   font-family: 'Dancing Script', cursive;
-   color: blue;
-   font-size: 1.5em;
- } */
-
  .navbar {
   background: linear-gradient(90deg, rgba(220, 246, 252, 0.9), rgba(245, 246, 252, 0.7)) !important;
  }
-
- /* #navBarOptions {
-  font-family: 'Dancing Script', cursive;
-  font-size: 1.5em;
-  color: blue;
- }
-
- .nav-link {
-   color: blue !important;
- }
-
- a.nav-link:hover {
-   color: white !important;
- }
-
-a.nav-link {
-  text-decoration: none;
-}
-
-.navbar-dark .navbar-toggler {
-  color: white;
-  border-color: white;
-} */
-
 
 /* The navbar background image styling */
 .bg-img {
@@ -62,28 +12,3 @@ a.nav-link {
   position: relative;
   margin-bottom: 3em;
 }
-
-/* Start of Footer styling */
-/* adding hue to the links within the footer */
- /* .footer-links {
-   background: linear-gradient(90deg, rgba(220, 246, 252, 0.7), rgba(245, 246, 252, 0.7)) !important;
- }
-
- #facebook-link,  #mail-link{
-   font-size: 1.5em;
-   margin: 0.3em;
- } */
-/* END of Footer styling */
-
-
-/********** MEDIA QUERIES **********/
-/* @media only screen and (max-width: 414px) {
-  .container {
-    padding: 5%;
-  }
-
-  p, li {
-    line-height: 1.5em;
-  }
-
-} */
