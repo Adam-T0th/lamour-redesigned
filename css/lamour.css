@@ -1,5 +1,9 @@
+body {
+  background-color: #BCE3EC;
+}
+
 * {
-  font-family: 'Italianno', cursive;
+  color: #01439C;
 }
 
  .navbar {
@@ -14,12 +18,47 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin-bottom: 3em;
+  padding-bottom: 3em;
+}
+
+div.polaroid {
+  width: 35% !important;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px !important;
+  display: inline-block;
+  float: right;
+  margin-right: 5%;
+}
+
+div.polaroid2 {
+  width: 35% !important;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px !important;
+  display: inline-block;
+  float: left;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  width: 50% !important;
+  background-color: white;
+  display: inline-block;
+}
+
+.first-list li, .second-list li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
 }
 
 li {
   font-size: 2.1em;
   list-style-type: none;
+  font-family: 'Italianno', cursive;
 }
 
 .tab-content {
@@ -27,11 +66,18 @@ li {
 }
 
 h1 {
+  font-size: 5em;
+  font-family: 'Italianno', cursive;
+}
+
+h2 {
   font-size: 4em;
+  font-family: 'Italianno', cursive;
 }
 
 p {
-  font-size: 3em;
+  font-size: 1.2em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -91,5 +137,16 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
-
 /* End of FORMATTING THE REGISTRATION FORM */
+
+
+/************* FOOTER *************/
+.footer-links {
+  background: linear-gradient(90deg, rgba(220, 246, 252, 0.7), rgba(245, 246, 252, 0.7)) !important;
+}
+
+#facebook-link,  #mail-link{
+  font-size: 1.5em;
+  margin: 0.3em;
+}
+/************* End of FOOTER *************/
