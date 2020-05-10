@@ -70,6 +70,11 @@ h1 {
   font-family: 'Italianno', cursive;
 }
 
+.black {
+  color: black;
+  font-weight: bold;
+}
+
 h2 {
   font-size: 4em;
   font-family: 'Italianno', cursive;
@@ -80,6 +85,66 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+.piros {
+   color: red;
+   margin: 20px;
+   font-weight: bold;
+}
+
+.rozsaszin {
+  color: #eb34e2;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.kek {
+   color: blue;
+   margin: 20px;
+   font-weight: bold;
+}
+
+.green {
+  color: green;
+  font-weight: bold;
+}
+
+.bleumarine {
+    color: #347deb;
+    font-weight: bold;
+}
+
+.end {
+     display: flex;
+   }
+
+.intro-words {
+  display: flex;
+}
+.end-words {
+  display: flex;
+}
+
+#red {
+    margin-left: 32%;
+    font-weight: bold;
+}
+
+#red2 {
+   margin-left: 25%;
+   margin-right: 60%;
+   font-size: 18px;
+   font-weight: bold;
+}
+
+#red3 {
+  margin-left: 18%;
+  font-weight: bold;
+}
+
+#kek {
+   color: blue;
+   font-weight: bold;
+}
 
 /* FORMATTING THE REGISTRATION FORM */
 /* * {
