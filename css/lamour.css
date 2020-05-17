@@ -1,3 +1,7 @@
+* {
+  color: #01439C;
+}
+
 html, body {
   height: 100% !important;
 }
@@ -8,17 +12,13 @@ body {
   background-color: #BCE3EC;
 }
 
-* {
-  color: #01439C;
-}
-
  .navbar {
   background: linear-gradient(90deg, rgba(220, 246, 252, 0.9), rgba(245, 246, 252, 0.7)) !important;
  }
 
 /* The navbar background image styling */
 .bg-img {
-  background-image: url("../img/hotel-caribe-paraiso.jpg");
+  background-image: url("../img/plajaJuanDolio.jpg");
   min-height: 400px;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,17 +28,18 @@ body {
 }
 
 div.polaroid {
-  width: 35% !important;
+  width: 45% !important;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px !important;
   display: inline-block;
   float: right;
   margin-right: 5%;
+  margin-left: 5%;
 }
 
 div.polaroid2 {
-  width: 35% !important;
+  width: 45% !important;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px !important;
@@ -57,14 +58,14 @@ div.container {
 }
 
 .first-list li, .second-list li {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.2em;
+  font-family: 'Kalam', cursive;
+  font-size: 1.5em;
 }
 
 li {
-  font-size: 2.1em;
+  font-size: 1.5em;
   list-style-type: none;
-  font-family: 'Italianno', cursive;
+  font-family: 'Kalam', cursive;
 }
 
 .tab-content {
@@ -73,8 +74,8 @@ li {
 }
 
 h1 {
-  font-size: 5em;
-  font-family: 'Italianno', cursive;
+  font-size: 3em;
+  font-family: 'Kalam', cursive;
 }
 
 .black {
@@ -83,13 +84,23 @@ h1 {
 }
 
 h2 {
-  font-size: 4em;
-  font-family: 'Italianno', cursive;
+  font-size: 2.5em;
+  font-family: 'Kalam', cursive;
+}
+
+h3 {
+  font-family: 'Kalam', cursive;
+  font-size: 2.5em;
+}
+
+h4 {
+  font-family: 'Kalam', cursive;
+  font-size: 2em;
 }
 
 p {
-  font-size: 1.2em;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-family: 'Kalam', cursive;
 }
 
 .piros {
@@ -137,8 +148,7 @@ p {
 }
 
 #red2 {
-   margin-left: 25%;
-   margin-right: 60%;
+   margin: auto;
    font-size: 18px;
    font-weight: bold;
 }
@@ -159,7 +169,7 @@ p {
 } */
 
 input[type=text], select, textarea {
-  width: 100%;
+  width: 90%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -169,6 +179,8 @@ input[type=text], select, textarea {
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
+  font-family: 'Kalam', cursive;
+  font-size: 1.5em;
 }
 
 input[type=submit] {
@@ -180,6 +192,7 @@ input[type=submit] {
   cursor: pointer;
   float: right;
   margin-bottom: 5%;
+  margin-right: 8%;
 }
 
 input[type=submit]:hover {
@@ -194,8 +207,9 @@ input[type=submit]:hover {
 
 .col-25 {
   float: left;
-  width: 25%;
+  width: 20%;
   margin-top: 6px;
+  margin-left: 1%;
 }
 
 .col-75 {
