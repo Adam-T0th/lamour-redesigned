@@ -1,4 +1,10 @@
+html, body {
+  height: 100% !important;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
   background-color: #BCE3EC;
 }
 
@@ -63,6 +69,7 @@ li {
 
 .tab-content {
   text-align: center;
+  flex: 1 0 auto;
 }
 
 h1 {
@@ -172,6 +179,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   float: right;
+  margin-bottom: 5%;
 }
 
 input[type=submit]:hover {
@@ -208,10 +216,22 @@ input[type=submit]:hover {
 /************* FOOTER *************/
 .footer-links {
   background: linear-gradient(90deg, rgba(220, 246, 252, 0.7), rgba(245, 246, 252, 0.7)) !important;
+  padding: 1.5%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.footer-logos {
+  text-align: center;
 }
 
 #facebook-link,  #mail-link{
-  font-size: 1.5em;
+  font-size: 3em;
   margin: 0.3em;
 }
 /************* End of FOOTER *************/
