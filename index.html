@@ -5,26 +5,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
   <link href="css/lamour.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </head>
 <body>
 
     <div class="bg-img">
       <div class="navbar">
-        <ul class="nav nav-tabs">
-          <li class="active"><a data-toggle="tab" href="#home">Kezdőlap</a></li>
-          <li><a data-toggle="tab" href="#menu1">Rólunk</a></li>
-          <li><a data-toggle="tab" href="#menu2">Programok</a></li>
-          <li><a data-toggle="tab" href="#menu3">Apartman leírása</a></li>
-          <li><a data-toggle="tab" href="#menu4">Részvételi díjak</a></li>
-          <li><a data-toggle="tab" href="#menu5">Jelentkezés</a></li>
-          <li><a data-toggle="tab" href="#menu6">Elérhetőség</a></li>
-          <li><a data-toggle="tab" href="#menu7">Vélemények</a></li>
-          <li><a data-toggle="tab" href="#menu8">Galéria</a></li>
+        <ul class="menu"> <!-- class="nav nav-tabs" -->
+          <!-- <li> class="active"  --><li class="item"><a data-toggle="tab" href="#home">Kezdőlap</a></li>
+          <li class="item" ><a data-toggle="tab" href="#menu1">Rólunk</a></li>
+          <li class="item" ><a data-toggle="tab" href="#menu2">Programok</a></li>
+          <li class="item" ><a data-toggle="tab" href="#menu3">Apartman leírása</a></li>
+          <li class="item" ><a data-toggle="tab" href="#menu4">Részvételi díjak</a></li>
+          <li class="item" ><a data-toggle="tab" href="#menu5">Jelentkezés</a></li>
+          <li class="item" ><a data-toggle="tab" href="#menu6">Elérhetőség</a></li>
+          <li class="item" ><a data-toggle="tab" href="#menu7">Vélemények</a></li>
+          <li class="item" ><a data-toggle="tab" href="#menu8">Galéria</a></li>
+          <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
         </ul>
       </div>
     </div>
@@ -38,11 +40,6 @@
         <p class="black">Bárki csatlakozhat hozzánk a világ bármelyik részéről!</p>
         <p class= "green">Találkozzunk Dominikán!</p>
         <p class="bleumarine">Dominikai nyaralás, kicsit másképp</p>
-        <h1>Ismerkedj és nyaralj Dominikán!</h1>
-        <p>Szingli, Magyarországon és külföldön élő magyarok csoportja!</p>
-        <p>Bárki csatlakozhat hozzánk a világ bármelyik részéről!</p>
-        <p>Találkozzunk Dominikán!</p>
-        <p>Dominikai nyaralás, kicsit másképp</p>
         <p>Ismerkedni vágyó, szingli,  Magyarországon és külföldön élő magyaroknak nyaralásokat szervezünk egy csodaszép karibi szigetre, a Dominikai Köztársaságban.</p>
         <p>Lehetőséget kínálunk nyaralni kedvelőknek ismerkedni, új barátokat szerezni vagy rátalálni „A Szerelemre”. 2 hetes  turnusokat indítunk, hasonló életkorúak részére, ezzel segítve az ismerkedést.</p>
         <p>I. Turnus: 30 és 45 év közötti ismerkedni vágyó egyedülállóknak</p>
@@ -71,10 +68,6 @@
         <p id="kek">Ha ismerősök a kérdések, akkor itt a helyed!</p>
         <!-- paragraph to be spaced out a bit and coloured in a light-blue -->
         <p class="piros" id="red2">Csatlakozz hozzánk!</p>
-        <p>Ha ismerősök a kérdések, akkor itt a helyed!</p>
-        <!-- paragraph to be spaced out a bit and coloured in a light-blue -->
-        <p>Csatlakozz hozzánk!</p>
-        <!-- to be spaced out, coloured red -->
         <br>
         <p>Találd meg a Nagy „Ő”-t vagy egyszerűen csak ismerkedj kötöttségek nélkül egy fantasztikus Dominikai nyaralással egybekötve. A csoport tagjai mind egyedülállóak, ezért senki sem fogja kellemetlenül vagy kirekesztve érezni magát. Itt senki sem fog unatkozni. Lehetőség van közös programokra vagy egyéni pihenésre egyaránt. Csoportjaink korlátozott számmal indulnak, mivel számunkra nem a mennyiség hanem a minőség a fontos! Feltétel: pozitív beállítottság, nyitottság új emeberek megismerésére, türelem és alkalmazkodás!</p>
         <br>
@@ -117,12 +110,6 @@
           <br>
           <br>
           <br>
-          <p>Dominikán minden lehetséges!</p>
-          <p>Gyere velünk, töltődj fel, ismerkedj, érezzd jól magad, élvezzd az életet!</p>
-          <!-- header on line 90 to be coloured blue black and red, like the dominican flag -->
-          <p>Ez mindenkinek kijár, mindenki megérdemli!</p>
-          <p>Garantáltan felejthetetlen élményekkel fogtok gazdagodni!</p>
-          <p>Nem csak a 20 éveseké a Világ!</p>
           <p>Dominika egy életérzés, melyet ha megismersz, újra akarod!</p>
         </ul>
         <!-- END of HOME page -->
